@@ -7,13 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		139C0531F25D9EC217F3C0EE /* Pods_PayYayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F357FB7F40F36738919F358 /* Pods_PayYayTests.framework */; };
+		3F99D63DCC6D9D688E4C28B1 /* Pods_PayYay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9EA41B53F8A8B8E42CFF0B2 /* Pods_PayYay.framework */; };
+		9CEB817BAC731DDE85FE688F /* Pods_PayYay_PayYayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA28959CE797D4616D3F2D9 /* Pods_PayYay_PayYayTests.framework */; };
 		DE1C7BDA1E6E544700657E93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1C7BD91E6E544700657E93 /* AppDelegate.swift */; };
 		DE1C7BDC1E6E544700657E93 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1C7BDB1E6E544700657E93 /* FirstViewController.swift */; };
 		DE1C7BDE1E6E544700657E93 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1C7BDD1E6E544700657E93 /* SecondViewController.swift */; };
 		DE1C7BE11E6E544700657E93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE1C7BDF1E6E544700657E93 /* Main.storyboard */; };
 		DE1C7BE31E6E544700657E93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE1C7BE21E6E544700657E93 /* Assets.xcassets */; };
 		DE1C7BE61E6E544700657E93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE1C7BE41E6E544700657E93 /* LaunchScreen.storyboard */; };
-		DE1C7BF11E6E544800657E93 /* PayYayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1C7BF01E6E544800657E93 /* PayYayTests.swift */; };
+		DE1C7BFC1E6E54F000657E93 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE1C7BFB1E6E54F000657E93 /* GoogleService-Info.plist */; };
+		DE1C7C011E6E8A2F00657E93 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1C7C001E6E8A2F00657E93 /* User.swift */; };
+		DE1C7C091E6F4D2E00657E93 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1C7C081E6F4D2E00657E93 /* ProfileViewController.swift */; };
+		DE1C7C0B1E6F515800657E93 /* IndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1C7C0A1E6F515800657E93 /* IndexViewController.swift */; };
+		DE1C7C101E6F5DC000657E93 /* Main2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE1C7C0E1E6F5DC000657E93 /* Main2.storyboard */; };
+		DE1C7C121E6F891B00657E93 /* FriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1C7C111E6F891B00657E93 /* FriendTableViewCell.swift */; };
+		DE1C7C141E6F943D00657E93 /* FriendTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1C7C131E6F943D00657E93 /* FriendTableViewController.swift */; };
+		DE1C7C181E70FD1E00657E93 /* AddFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1C7C171E70FD1E00657E93 /* AddFriendViewController.swift */; };
+		DE1C7C1B1E71F72F00657E93 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1C7C1A1E71F72F00657E93 /* DataService.swift */; };
+		DE1C7C1F1E721E3400657E93 /* DataServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1C7C1E1E721E3400657E93 /* DataServiceTest.swift */; };
+		DE1C7C211E724F7B00657E93 /* PayYayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1C7C201E724F7B00657E93 /* PayYayTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		47FC996040768BBAE422A51B /* Pods-PayYay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayYay.release.xcconfig"; path = "Pods/Target Support Files/Pods-PayYay/Pods-PayYay.release.xcconfig"; sourceTree = "<group>"; };
+		6F357FB7F40F36738919F358 /* Pods_PayYayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayYayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AE17333403CC0FE00CFBEC7 /* Pods-PayYay-PayYayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayYay-PayYayTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PayYay-PayYayTests/Pods-PayYay-PayYayTests.release.xcconfig"; sourceTree = "<group>"; };
+		8089E03CDFA2280F299AED3C /* Pods-PayYayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayYayTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PayYayTests/Pods-PayYayTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8AA28959CE797D4616D3F2D9 /* Pods_PayYay_PayYayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayYay_PayYayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAD5C8A1B41101DC69F81BEE /* Pods-PayYay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayYay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PayYay/Pods-PayYay.debug.xcconfig"; sourceTree = "<group>"; };
+		CF0CBE1DF50E993A66B10A0F /* Pods-PayYay-PayYayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayYay-PayYayTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PayYay-PayYayTests/Pods-PayYay-PayYayTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D9EA41B53F8A8B8E42CFF0B2 /* Pods_PayYay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayYay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE1C7BD61E6E544700657E93 /* PayYay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayYay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE1C7BD91E6E544700657E93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE1C7BDB1E6E544700657E93 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -36,8 +57,20 @@
 		DE1C7BE51E6E544700657E93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE1C7BE71E6E544700657E93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE1C7BEC1E6E544800657E93 /* PayYayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayYayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE1C7BF01E6E544800657E93 /* PayYayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayYayTests.swift; sourceTree = "<group>"; };
 		DE1C7BF21E6E544800657E93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE1C7BFB1E6E54F000657E93 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DE1C7C001E6E8A2F00657E93 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		DE1C7C081E6F4D2E00657E93 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		DE1C7C0A1E6F515800657E93 /* IndexViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexViewController.swift; sourceTree = "<group>"; };
+		DE1C7C0F1E6F5DC000657E93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main2.storyboard; sourceTree = "<group>"; };
+		DE1C7C111E6F891B00657E93 /* FriendTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendTableViewCell.swift; sourceTree = "<group>"; };
+		DE1C7C131E6F943D00657E93 /* FriendTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendTableViewController.swift; sourceTree = "<group>"; };
+		DE1C7C171E70FD1E00657E93 /* AddFriendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddFriendViewController.swift; sourceTree = "<group>"; };
+		DE1C7C1A1E71F72F00657E93 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		DE1C7C1E1E721E3400657E93 /* DataServiceTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataServiceTest.swift; sourceTree = "<group>"; };
+		DE1C7C201E724F7B00657E93 /* PayYayTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayYayTests.swift; sourceTree = "<group>"; };
+		DE1C7C241E7258E300657E93 /* Pods_PayYayTests.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_PayYayTests.framework; path = "../../Library/Developer/Xcode/DerivedData/PayYay-gzlauixpfpuwhfgeywyzkmwufxla/Build/Products/Debug-iphonesimulator/Pods_PayYayTests.framework"; sourceTree = "<group>"; };
+		F14E27308AA93D843DD31B39 /* Pods-PayYayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayYayTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PayYayTests/Pods-PayYayTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F99D63DCC6D9D688E4C28B1 /* Pods_PayYay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +86,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				139C0531F25D9EC217F3C0EE /* Pods_PayYayTests.framework in Frameworks */,
+				9CEB817BAC731DDE85FE688F /* Pods_PayYay_PayYayTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6CD0D8948963B4F0914CE33B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE1C7C241E7258E300657E93 /* Pods_PayYayTests.framework */,
+				D9EA41B53F8A8B8E42CFF0B2 /* Pods_PayYay.framework */,
+				6F357FB7F40F36738919F358 /* Pods_PayYayTests.framework */,
+				8AA28959CE797D4616D3F2D9 /* Pods_PayYay_PayYayTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDEFDA9D1B972A21DEAC3016 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BAD5C8A1B41101DC69F81BEE /* Pods-PayYay.debug.xcconfig */,
+				47FC996040768BBAE422A51B /* Pods-PayYay.release.xcconfig */,
+				8089E03CDFA2280F299AED3C /* Pods-PayYayTests.debug.xcconfig */,
+				F14E27308AA93D843DD31B39 /* Pods-PayYayTests.release.xcconfig */,
+				CF0CBE1DF50E993A66B10A0F /* Pods-PayYay-PayYayTests.debug.xcconfig */,
+				7AE17333403CC0FE00CFBEC7 /* Pods-PayYay-PayYayTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DE1C7BCD1E6E544700657E93 = {
 			isa = PBXGroup;
 			children = (
 				DE1C7BD81E6E544700657E93 /* PayYay */,
 				DE1C7BEF1E6E544800657E93 /* PayYayTests */,
 				DE1C7BD71E6E544700657E93 /* Products */,
+				DDEFDA9D1B972A21DEAC3016 /* Pods */,
+				6CD0D8948963B4F0914CE33B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,12 +141,22 @@
 		DE1C7BD81E6E544700657E93 /* PayYay */ = {
 			isa = PBXGroup;
 			children = (
+				DE1C7BFF1E6E89F200657E93 /* Models */,
+				DE1C7C001E6E8A2F00657E93 /* User.swift */,
+				DE1C7C1A1E71F72F00657E93 /* DataService.swift */,
+				DE1C7C111E6F891B00657E93 /* FriendTableViewCell.swift */,
 				DE1C7BD91E6E544700657E93 /* AppDelegate.swift */,
 				DE1C7BDB1E6E544700657E93 /* FirstViewController.swift */,
 				DE1C7BDD1E6E544700657E93 /* SecondViewController.swift */,
+				DE1C7C0A1E6F515800657E93 /* IndexViewController.swift */,
+				DE1C7C081E6F4D2E00657E93 /* ProfileViewController.swift */,
+				DE1C7C131E6F943D00657E93 /* FriendTableViewController.swift */,
 				DE1C7BDF1E6E544700657E93 /* Main.storyboard */,
+				DE1C7C171E70FD1E00657E93 /* AddFriendViewController.swift */,
+				DE1C7C0E1E6F5DC000657E93 /* Main2.storyboard */,
 				DE1C7BE21E6E544700657E93 /* Assets.xcassets */,
 				DE1C7BE41E6E544700657E93 /* LaunchScreen.storyboard */,
+				DE1C7BFB1E6E54F000657E93 /* GoogleService-Info.plist */,
 				DE1C7BE71E6E544700657E93 /* Info.plist */,
 			);
 			path = PayYay;
@@ -93,10 +165,18 @@
 		DE1C7BEF1E6E544800657E93 /* PayYayTests */ = {
 			isa = PBXGroup;
 			children = (
-				DE1C7BF01E6E544800657E93 /* PayYayTests.swift */,
+				DE1C7C201E724F7B00657E93 /* PayYayTests.swift */,
+				DE1C7C1E1E721E3400657E93 /* DataServiceTest.swift */,
 				DE1C7BF21E6E544800657E93 /* Info.plist */,
 			);
 			path = PayYayTests;
+			sourceTree = "<group>";
+		};
+		DE1C7BFF1E6E89F200657E93 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,9 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE1C7BF51E6E544800657E93 /* Build configuration list for PBXNativeTarget "PayYay" */;
 			buildPhases = (
+				A5E004599EFFCAFC5CC74412 /* [CP] Check Pods Manifest.lock */,
 				DE1C7BD21E6E544700657E93 /* Sources */,
 				DE1C7BD31E6E544700657E93 /* Frameworks */,
 				DE1C7BD41E6E544700657E93 /* Resources */,
+				BACE1DC4D9C34344E4C4C805 /* [CP] Embed Pods Frameworks */,
+				B9569215DA6CC009617E8F46 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,9 +206,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE1C7BF81E6E544800657E93 /* Build configuration list for PBXNativeTarget "PayYayTests" */;
 			buildPhases = (
+				675A918580CBC62D3D1BF2B8 /* [CP] Check Pods Manifest.lock */,
 				DE1C7BE81E6E544800657E93 /* Sources */,
 				DE1C7BE91E6E544800657E93 /* Frameworks */,
 				DE1C7BEA1E6E544800657E93 /* Resources */,
+				0E19B9B9B92FA9D172802B78 /* [CP] Embed Pods Frameworks */,
+				AB9EF20EFD4E8B0D9A6E0390 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -183,7 +269,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE1C7BE61E6E544700657E93 /* LaunchScreen.storyboard in Resources */,
+				DE1C7BFC1E6E54F000657E93 /* GoogleService-Info.plist in Resources */,
 				DE1C7BE31E6E544700657E93 /* Assets.xcassets in Resources */,
+				DE1C7C101E6F5DC000657E93 /* Main2.storyboard in Resources */,
 				DE1C7BE11E6E544700657E93 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,14 +285,114 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0E19B9B9B92FA9D172802B78 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PayYayTests/Pods-PayYayTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		675A918580CBC62D3D1BF2B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A5E004599EFFCAFC5CC74412 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AB9EF20EFD4E8B0D9A6E0390 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PayYayTests/Pods-PayYayTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9569215DA6CC009617E8F46 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PayYay/Pods-PayYay-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BACE1DC4D9C34344E4C4C805 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PayYay/Pods-PayYay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DE1C7BD21E6E544700657E93 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE1C7C011E6E8A2F00657E93 /* User.swift in Sources */,
+				DE1C7C141E6F943D00657E93 /* FriendTableViewController.swift in Sources */,
 				DE1C7BDE1E6E544700657E93 /* SecondViewController.swift in Sources */,
+				DE1C7C181E70FD1E00657E93 /* AddFriendViewController.swift in Sources */,
+				DE1C7C0B1E6F515800657E93 /* IndexViewController.swift in Sources */,
 				DE1C7BDA1E6E544700657E93 /* AppDelegate.swift in Sources */,
+				DE1C7C091E6F4D2E00657E93 /* ProfileViewController.swift in Sources */,
 				DE1C7BDC1E6E544700657E93 /* FirstViewController.swift in Sources */,
+				DE1C7C121E6F891B00657E93 /* FriendTableViewCell.swift in Sources */,
+				DE1C7C1B1E71F72F00657E93 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +400,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE1C7BF11E6E544800657E93 /* PayYayTests.swift in Sources */,
+				DE1C7C211E724F7B00657E93 /* PayYayTests.swift in Sources */,
+				DE1C7C1F1E721E3400657E93 /* DataServiceTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +430,14 @@
 				DE1C7BE51E6E544700657E93 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DE1C7C0E1E6F5DC000657E93 /* Main2.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE1C7C0F1E6F5DC000657E93 /* Base */,
+			);
+			name = Main2.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -339,10 +536,35 @@
 		};
 		DE1C7BF61E6E544800657E93 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAD5C8A1B41101DC69F81BEE /* Pods-PayYay.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/GTMSessionFetcher\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/GoogleToolboxForMac\"",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseAuth/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseCore/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseDatabase/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseInstanceID/Frameworks\"",
+					"\"${SRCROOT}\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"${PODS_ROOT}/Firebase/Core/Sources",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Firebase\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseAnalytics\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseAuth\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseCore\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseDatabase\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseInstanceID\"",
+					"$(SRCROOT)",
+				);
 				INFOPLIST_FILE = PayYay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PODS_ROOT = "${SRCROOT}/Pods";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zlin47.PayYay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -351,10 +573,35 @@
 		};
 		DE1C7BF71E6E544800657E93 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47FC996040768BBAE422A51B /* Pods-PayYay.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/GTMSessionFetcher\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/GoogleToolboxForMac\"",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseAuth/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseCore/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseDatabase/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseInstanceID/Frameworks\"",
+					"\"${SRCROOT}\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"${PODS_ROOT}/Firebase/Core/Sources",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Firebase\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseAnalytics\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseAuth\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseCore\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseDatabase\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseInstanceID\"",
+					"$(SRCROOT)",
+				);
 				INFOPLIST_FILE = PayYay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PODS_ROOT = "${SRCROOT}/Pods";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zlin47.PayYay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -363,6 +610,7 @@
 		};
 		DE1C7BF91E6E544800657E93 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8089E03CDFA2280F299AED3C /* Pods-PayYayTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -377,6 +625,7 @@
 		};
 		DE1C7BFA1E6E544800657E93 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F14E27308AA93D843DD31B39 /* Pods-PayYayTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -408,6 +657,7 @@
 				DE1C7BF71E6E544800657E93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DE1C7BF81E6E544800657E93 /* Build configuration list for PBXNativeTarget "PayYayTests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +666,7 @@
 				DE1C7BFA1E6E544800657E93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

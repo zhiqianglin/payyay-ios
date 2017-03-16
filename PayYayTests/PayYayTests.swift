@@ -7,6 +7,7 @@
 //
 
 import XCTest
+
 @testable import PayYay
 
 class PayYayTests: XCTestCase {
@@ -21,16 +22,29 @@ class PayYayTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+//    func testExample() {
+//        // This is an example of a functional test case.
+//        // Use XCTAssert and related functions to verify your tests produce the correct results.
+//    }
+//    
+//    func testPerformanceExample() {
+//        // This is an example of a performance test case.
+//        self.measure {
+//            // Put the code you want to measure the time of here.
+//        }
+//    }
+    
+    func testEmailToKey() {
+        let key = DataService.emailToKey(email: "abc.email")
+        print(key)
+        XCTAssertEqual("abc,email", key)
+        
     }
     
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    func testCreateUser() {
+        let error = DataService.createUser(email: "1234@gmail.com", password: "123456")
+        print(error + "aa")
+        
     }
     
 }
